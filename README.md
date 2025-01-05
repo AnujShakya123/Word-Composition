@@ -22,6 +22,7 @@ Sorting once and using a HashSet ensures efficient processing.
 Recursion checks are straightforward but could be optimized further using memoization for larger datasets.
 
 Steps to Execute
+
 1.Compile the Program: Run the following command in your terminal:
 
 javac CompositionWord.java
