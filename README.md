@@ -1,3 +1,5 @@
+Word Composition Finder
+
 Overview
 
 The CompositionWord program is designed to find the longest and second-longest compound words from a given list of words in a text file. A compound word is defined as a word that can be formed by concatenating two or more smaller words from the same list. The program processes the words efficiently by leveraging sorting and a recursive algorithm to check if a word can be constructed using smaller words.
