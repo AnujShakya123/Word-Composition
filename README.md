@@ -5,10 +5,12 @@ The CompositionWord program is designed to find the longest and second-longest c
 Design Decisions and Approach
 
 Data Handling:
+
 Words are read from the input file and stored in a HashSet for fast lookups.
 Sorting the words by length ensures that the program processes the longest words first.
 
 Algorithm:
+
 A helper function, formComposition, recursively checks if a word can be formed by splitting it into prefixes and suffixes and validating them against the set of words.
 The isOriginal flag prevents false positives by distinguishing the original word from its components.
 
