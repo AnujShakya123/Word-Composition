@@ -12,26 +12,41 @@ Sorting the words by length ensures that the program processes the longest words
 Algorithm:
 
 A helper function, formComposition, recursively checks if a word can be formed by splitting it into prefixes and suffixes and validating them against the set of words.
+
 The isOriginal flag prevents false positives by distinguishing the original word from its components.
 
 Efficiency:
+
 Sorting once and using a HashSet ensures efficient processing.
+
 Recursion checks are straightforward but could be optimized further using memoization for larger datasets.
 
 Steps to Execute
 1.Compile the Program: Run the following command in your terminal:
+
 javac CompositionWord.java
+
 2.Prepare Input Files: Create text files (e.g., Input_01.txt, Input_02.txt) with one word per line.
+
 3.Run the Program: Execute the program by running:
+
 java CompositionWord
+
 Ensure the file paths in the main method match the location of your input files.
+
 4.View Results: The program will output:
+
 The longest compound word.
+
 The second-longest compound word.
+
 The time taken to process each file.
 
+
 Example Output
+
 For an input file containing:
+
 cat
 dog
 cats
