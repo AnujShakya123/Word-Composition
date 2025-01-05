@@ -49,13 +49,22 @@ Example Output
 For an input file containing:
 
 cat
+
+
 dog
+
 cats
+
 catsdog
+
 rat
+
 catsdograt
 
 The program will output:
+
 Longest Compound Word: catsdograt
+
 Second Longest Compound Word: catsdog
+
 Time take to process D:/projct/Input_01.txt: [time] milliseconds
